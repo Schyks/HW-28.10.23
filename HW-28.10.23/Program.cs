@@ -15,7 +15,9 @@ namespace HW_28._10._23
         {
             ResultOutput += result => Console.WriteLine(result);
             Generation();
+            Console.WriteLine("***************************************");
             Summ();
+            Console.WriteLine("***************************************");
             Calc();
         }
         

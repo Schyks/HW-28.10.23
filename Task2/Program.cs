@@ -28,7 +28,6 @@ namespace Task2
             });
             readerThread.Start();
             modifierThread.Start();
-
         }
 
         static int CountSentences(string filePath)
